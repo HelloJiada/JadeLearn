@@ -22,7 +22,7 @@
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
-        self.selectionStyle = UITableViewCellStyleDefault;
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
         self.backgroundColor = UIColor.whiteColor;
     }
     return self;
