@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07764807299F180000E74652 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764806299F180000E74652 /* AppDelegate.m */; };
+		07764812299F180200E74652 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07764811299F180200E74652 /* Assets.xcassets */; };
+		07764815299F180200E74652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07764813299F180200E74652 /* LaunchScreen.storyboard */; };
+		07764818299F180200E74652 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764817299F180200E74652 /* main.m */; };
+		07764822299F180200E74652 /* JadeLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764821299F180200E74652 /* JadeLearnTests.m */; };
+		0776482C299F180200E74652 /* JadeLearnUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776482B299F180200E74652 /* JadeLearnUITests.m */; };
+		0776482E299F180200E74652 /* JadeLearnUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776482D299F180200E74652 /* JadeLearnUITestsLaunchTests.m */; };
+		07764847299F1A7100E74652 /* JadeNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764846299F1A7100E74652 /* JadeNavigationController.m */; };
+		0776484A299F1AA200E74652 /* JadeTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764849299F1AA200E74652 /* JadeTabbarController.m */; };
+		0776484E299F1B3A00E74652 /* JadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776484D299F1B3A00E74652 /* JadeViewController.m */; };
+		07764851299F1B5500E74652 /* JadeLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764850299F1B5500E74652 /* JadeLoginViewController.m */; };
+		07764855299F1BDD00E74652 /* JadeGlobal.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764854299F1BDD00E74652 /* JadeGlobal.m */; };
+		0776485B299F26F100E74652 /* UILabel+JadeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776485A299F26F100E74652 /* UILabel+JadeLabel.m */; };
+		07764864299F2B8100E74652 /* UIColor+JadeColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764863299F2B8100E74652 /* UIColor+JadeColor.m */; };
+		0776486A299F2D3800E74652 /* JadeLocalizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764869299F2D3800E74652 /* JadeLocalizationManager.m */; };
+		07764872299F606900E74652 /* JadeTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764871299F606900E74652 /* JadeTools.m */; };
+		07764875299F614F00E74652 /* JadeWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764874299F614F00E74652 /* JadeWKWebViewController.m */; };
+		07764879299F622000E74652 /* UIButton+JadeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07764878299F622000E74652 /* UIButton+JadeButton.m */; };
+		0776487E29A49EF500E74652 /* UIDevice+JadeAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776487D29A49EF500E74652 /* UIDevice+JadeAddition.m */; };
+		0776488229A4A47700E74652 /* DMSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0776487F29A4A47700E74652 /* DMSans-Medium.ttf */; };
+		0776488329A4A47700E74652 /* DMSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0776488029A4A47700E74652 /* DMSans-Regular.ttf */; };
+		0776488429A4A47700E74652 /* DMSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0776488129A4A47700E74652 /* DMSans-Bold.ttf */; };
+		0776488D29A5CC1200E74652 /* JadeHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776488C29A5CC1200E74652 /* JadeHomeViewController.m */; };
+		0776489029A5CE5E00E74652 /* JadeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776488F29A5CE5E00E74652 /* JadeTableViewCell.m */; };
+		0776489429A5D35000E74652 /* NSTimer+JadeTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776489329A5D35000E74652 /* NSTimer+JadeTimer.m */; };
+		08765E72F82A33E4B9AD4FC7 /* Pods_JadeLearn_JadeLearnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */; };
+		65F1A22947B7BB2BBE67ADE1 /* Pods_JadeLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6670CC290EBF3D980904C7DB /* Pods_JadeLearn.framework */; };
+		E8FCEDAF08738BAA7408BECA /* Pods_JadeLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870BB8F265294108B084FC80 /* Pods_JadeLearnTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0776481E299F180200E74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077647FA299F180000E74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07764801299F180000E74652;
+			remoteInfo = JadeLearn;
+		};
+		07764828299F180200E74652 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077647FA299F180000E74652 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07764801299F180000E74652;
+			remoteInfo = JadeLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07764802299F180000E74652 /* JadeLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JadeLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07764805299F180000E74652 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07764806299F180000E74652 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07764811299F180200E74652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07764814299F180200E74652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07764816299F180200E74652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07764817299F180200E74652 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0776481D299F180200E74652 /* JadeLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadeLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07764821299F180200E74652 /* JadeLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeLearnTests.m; sourceTree = "<group>"; };
+		07764827299F180200E74652 /* JadeLearnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JadeLearnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0776482B299F180200E74652 /* JadeLearnUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeLearnUITests.m; sourceTree = "<group>"; };
+		0776482D299F180200E74652 /* JadeLearnUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeLearnUITestsLaunchTests.m; sourceTree = "<group>"; };
+		07764845299F1A7100E74652 /* JadeNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeNavigationController.h; sourceTree = "<group>"; };
+		07764846299F1A7100E74652 /* JadeNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeNavigationController.m; sourceTree = "<group>"; };
+		07764848299F1AA200E74652 /* JadeTabbarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeTabbarController.h; sourceTree = "<group>"; };
+		07764849299F1AA200E74652 /* JadeTabbarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeTabbarController.m; sourceTree = "<group>"; };
+		0776484C299F1B3A00E74652 /* JadeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeViewController.h; sourceTree = "<group>"; };
+		0776484D299F1B3A00E74652 /* JadeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeViewController.m; sourceTree = "<group>"; };
+		0776484F299F1B5500E74652 /* JadeLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeLoginViewController.h; sourceTree = "<group>"; };
+		07764850299F1B5500E74652 /* JadeLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeLoginViewController.m; sourceTree = "<group>"; };
+		07764853299F1BDD00E74652 /* JadeGlobal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeGlobal.h; sourceTree = "<group>"; };
+		07764854299F1BDD00E74652 /* JadeGlobal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeGlobal.m; sourceTree = "<group>"; };
+		07764856299F234600E74652 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		07764859299F26F100E74652 /* UILabel+JadeLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+JadeLabel.h"; sourceTree = "<group>"; };
+		0776485A299F26F100E74652 /* UILabel+JadeLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+JadeLabel.m"; sourceTree = "<group>"; };
+		07764862299F2B8100E74652 /* UIColor+JadeColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+JadeColor.h"; sourceTree = "<group>"; };
+		07764863299F2B8100E74652 /* UIColor+JadeColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JadeColor.m"; sourceTree = "<group>"; };
+		07764866299F2BE100E74652 /* AppMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		07764867299F2D0800E74652 /* ColorMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColorMacro.h; sourceTree = "<group>"; };
+		07764868299F2D3800E74652 /* JadeLocalizationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeLocalizationManager.h; sourceTree = "<group>"; };
+		07764869299F2D3800E74652 /* JadeLocalizationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeLocalizationManager.m; sourceTree = "<group>"; };
+		07764870299F606900E74652 /* JadeTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeTools.h; sourceTree = "<group>"; };
+		07764871299F606900E74652 /* JadeTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeTools.m; sourceTree = "<group>"; };
+		07764873299F614F00E74652 /* JadeWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeWKWebViewController.h; sourceTree = "<group>"; };
+		07764874299F614F00E74652 /* JadeWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeWKWebViewController.m; sourceTree = "<group>"; };
+		07764877299F622000E74652 /* UIButton+JadeButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JadeButton.h"; sourceTree = "<group>"; };
+		07764878299F622000E74652 /* UIButton+JadeButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JadeButton.m"; sourceTree = "<group>"; };
+		0776487A29A478C400E74652 /* SizeMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SizeMacro.h; sourceTree = "<group>"; };
+		0776487C29A49EF500E74652 /* UIDevice+JadeAddition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JadeAddition.h"; sourceTree = "<group>"; };
+		0776487D29A49EF500E74652 /* UIDevice+JadeAddition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JadeAddition.m"; sourceTree = "<group>"; };
+		0776487F29A4A47700E74652 /* DMSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Medium.ttf"; sourceTree = "<group>"; };
+		0776488029A4A47700E74652 /* DMSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Regular.ttf"; sourceTree = "<group>"; };
+		0776488129A4A47700E74652 /* DMSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DMSans-Bold.ttf"; sourceTree = "<group>"; };
+		0776488529A4A4F600E74652 /* FontMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontMacro.h; sourceTree = "<group>"; };
+		0776488B29A5CC1200E74652 /* JadeHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeHomeViewController.h; sourceTree = "<group>"; };
+		0776488C29A5CC1200E74652 /* JadeHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeHomeViewController.m; sourceTree = "<group>"; };
+		0776488E29A5CE5E00E74652 /* JadeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeTableViewCell.h; sourceTree = "<group>"; };
+		0776488F29A5CE5E00E74652 /* JadeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeTableViewCell.m; sourceTree = "<group>"; };
+		0776489229A5D35000E74652 /* NSTimer+JadeTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JadeTimer.h"; sourceTree = "<group>"; };
+		0776489329A5D35000E74652 /* NSTimer+JadeTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JadeTimer.m"; sourceTree = "<group>"; };
+		099FE9C71206B7C8B5E03926 /* Pods-JadeLearn-JadeLearnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn-JadeLearnUITests.release.xcconfig"; path = "Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeLearn_JadeLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F45EFB77E1F75C427B65F9 /* Pods-JadeLearn-JadeLearnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn-JadeLearnUITests.debug.xcconfig"; path = "Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6670CC290EBF3D980904C7DB /* Pods_JadeLearn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeLearn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D69F3405BBAA172D5018107 /* Pods-JadeLearnTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearnTests.release.xcconfig"; path = "Target Support Files/Pods-JadeLearnTests/Pods-JadeLearnTests.release.xcconfig"; sourceTree = "<group>"; };
+		870BB8F265294108B084FC80 /* Pods_JadeLearnTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeLearnTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4038C7BFD4255CC94F275D /* Pods-JadeLearn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn.debug.xcconfig"; path = "Target Support Files/Pods-JadeLearn/Pods-JadeLearn.debug.xcconfig"; sourceTree = "<group>"; };
+		B758975B29025DEC4E96EAEC /* Pods-JadeLearn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn.release.xcconfig"; path = "Target Support Files/Pods-JadeLearn/Pods-JadeLearn.release.xcconfig"; sourceTree = "<group>"; };
+		E928B4D488898283BB6FECFF /* Pods-JadeLearnTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearnTests.debug.xcconfig"; path = "Target Support Files/Pods-JadeLearnTests/Pods-JadeLearnTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		077647FF299F180000E74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F1A22947B7BB2BBE67ADE1 /* Pods_JadeLearn.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0776481A299F180200E74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8FCEDAF08738BAA7408BECA /* Pods_JadeLearnTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07764824299F180200E74652 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08765E72F82A33E4B9AD4FC7 /* Pods_JadeLearn_JadeLearnUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		077647F9299F180000E74652 = {
+			isa = PBXGroup;
+			children = (
+				07764804299F180000E74652 /* JadeLearn */,
+				07764820299F180200E74652 /* JadeLearnTests */,
+				0776482A299F180200E74652 /* JadeLearnUITests */,
+				07764803299F180000E74652 /* Products */,
+				C82186393445321B3D4CA81F /* Pods */,
+				C9A3D9B531EE3B4065FFE4D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07764803299F180000E74652 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07764802299F180000E74652 /* JadeLearn.app */,
+				0776481D299F180200E74652 /* JadeLearnTests.xctest */,
+				07764827299F180200E74652 /* JadeLearnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07764804299F180000E74652 /* JadeLearn */ = {
+			isa = PBXGroup;
+			children = (
+				0776483B299F194300E74652 /* JadeClass */,
+				0776488929A5CBF300E74652 /* ModuleClass */,
+				07764865299F2BCB00E74652 /* Macro */,
+				0776485C299F27BA00E74652 /* Category */,
+				07764857299F260E00E74652 /* Tool */,
+				07764852299F1BC100E74652 /* Global */,
+				0776483A299F18AE00E74652 /* System */,
+			);
+			path = JadeLearn;
+			sourceTree = "<group>";
+		};
+		07764820299F180200E74652 /* JadeLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				07764821299F180200E74652 /* JadeLearnTests.m */,
+			);
+			path = JadeLearnTests;
+			sourceTree = "<group>";
+		};
+		0776482A299F180200E74652 /* JadeLearnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0776482B299F180200E74652 /* JadeLearnUITests.m */,
+				0776482D299F180200E74652 /* JadeLearnUITestsLaunchTests.m */,
+			);
+			path = JadeLearnUITests;
+			sourceTree = "<group>";
+		};
+		0776483A299F18AE00E74652 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				0776486B299F2E9200E74652 /* Language */,
+				07764805299F180000E74652 /* AppDelegate.h */,
+				07764806299F180000E74652 /* AppDelegate.m */,
+				07764811299F180200E74652 /* Assets.xcassets */,
+				07764813299F180200E74652 /* LaunchScreen.storyboard */,
+				07764816299F180200E74652 /* Info.plist */,
+				07764817299F180200E74652 /* main.m */,
+				07764856299F234600E74652 /* PrefixHeader.pch */,
+				0776488129A4A47700E74652 /* DMSans-Bold.ttf */,
+				0776487F29A4A47700E74652 /* DMSans-Medium.ttf */,
+				0776488029A4A47700E74652 /* DMSans-Regular.ttf */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		0776483B299F194300E74652 /* JadeClass */ = {
+			isa = PBXGroup;
+			children = (
+				07764845299F1A7100E74652 /* JadeNavigationController.h */,
+				07764846299F1A7100E74652 /* JadeNavigationController.m */,
+				07764848299F1AA200E74652 /* JadeTabbarController.h */,
+				07764849299F1AA200E74652 /* JadeTabbarController.m */,
+				0776484C299F1B3A00E74652 /* JadeViewController.h */,
+				0776484D299F1B3A00E74652 /* JadeViewController.m */,
+				07764873299F614F00E74652 /* JadeWKWebViewController.h */,
+				07764874299F614F00E74652 /* JadeWKWebViewController.m */,
+				0776488E29A5CE5E00E74652 /* JadeTableViewCell.h */,
+				0776488F29A5CE5E00E74652 /* JadeTableViewCell.m */,
+			);
+			path = JadeClass;
+			sourceTree = "<group>";
+		};
+		0776484B299F1B1800E74652 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0776484F299F1B5500E74652 /* JadeLoginViewController.h */,
+				07764850299F1B5500E74652 /* JadeLoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		07764852299F1BC100E74652 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				07764853299F1BDD00E74652 /* JadeGlobal.h */,
+				07764854299F1BDD00E74652 /* JadeGlobal.m */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		07764857299F260E00E74652 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				07764870299F606900E74652 /* JadeTools.h */,
+				07764871299F606900E74652 /* JadeTools.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		0776485C299F27BA00E74652 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0776489129A5D31200E74652 /* NSTimer */,
+				0776487B29A49ED400E74652 /* UIDevice */,
+				07764876299F61B300E74652 /* UIButton */,
+				0776485E299F2B3B00E74652 /* UIColor */,
+				0776485D299F27C200E74652 /* UILabel */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0776485D299F27C200E74652 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				07764859299F26F100E74652 /* UILabel+JadeLabel.h */,
+				0776485A299F26F100E74652 /* UILabel+JadeLabel.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		0776485E299F2B3B00E74652 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				07764862299F2B8100E74652 /* UIColor+JadeColor.h */,
+				07764863299F2B8100E74652 /* UIColor+JadeColor.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		07764865299F2BCB00E74652 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				07764866299F2BE100E74652 /* AppMacro.h */,
+				07764867299F2D0800E74652 /* ColorMacro.h */,
+				0776487A29A478C400E74652 /* SizeMacro.h */,
+				0776488529A4A4F600E74652 /* FontMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		0776486B299F2E9200E74652 /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				07764868299F2D3800E74652 /* JadeLocalizationManager.h */,
+				07764869299F2D3800E74652 /* JadeLocalizationManager.m */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		07764876299F61B300E74652 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				07764877299F622000E74652 /* UIButton+JadeButton.h */,
+				07764878299F622000E74652 /* UIButton+JadeButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		0776487B29A49ED400E74652 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				0776487C29A49EF500E74652 /* UIDevice+JadeAddition.h */,
+				0776487D29A49EF500E74652 /* UIDevice+JadeAddition.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
+		0776488929A5CBF300E74652 /* ModuleClass */ = {
+			isa = PBXGroup;
+			children = (
+				0776488A29A5CC0400E74652 /* Home */,
+				0776484B299F1B1800E74652 /* Login */,
+			);
+			path = ModuleClass;
+			sourceTree = "<group>";
+		};
+		0776488A29A5CC0400E74652 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0776488B29A5CC1200E74652 /* JadeHomeViewController.h */,
+				0776488C29A5CC1200E74652 /* JadeHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0776489129A5D31200E74652 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				0776489229A5D35000E74652 /* NSTimer+JadeTimer.h */,
+				0776489329A5D35000E74652 /* NSTimer+JadeTimer.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		C82186393445321B3D4CA81F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4038C7BFD4255CC94F275D /* Pods-JadeLearn.debug.xcconfig */,
+				B758975B29025DEC4E96EAEC /* Pods-JadeLearn.release.xcconfig */,
+				46F45EFB77E1F75C427B65F9 /* Pods-JadeLearn-JadeLearnUITests.debug.xcconfig */,
+				099FE9C71206B7C8B5E03926 /* Pods-JadeLearn-JadeLearnUITests.release.xcconfig */,
+				E928B4D488898283BB6FECFF /* Pods-JadeLearnTests.debug.xcconfig */,
+				7D69F3405BBAA172D5018107 /* Pods-JadeLearnTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9A3D9B531EE3B4065FFE4D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6670CC290EBF3D980904C7DB /* Pods_JadeLearn.framework */,
+				3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */,
+				870BB8F265294108B084FC80 /* Pods_JadeLearnTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07764801299F180000E74652 /* JadeLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07764831299F180200E74652 /* Build configuration list for PBXNativeTarget "JadeLearn" */;
+			buildPhases = (
+				B3D2C9A9FE25145DB5946D41 /* [CP] Check Pods Manifest.lock */,
+				077647FE299F180000E74652 /* Sources */,
+				077647FF299F180000E74652 /* Frameworks */,
+				07764800299F180000E74652 /* Resources */,
+				C8ED90C42EC881A334960056 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JadeLearn;
+			productName = JadeLearn;
+			productReference = 07764802299F180000E74652 /* JadeLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0776481C299F180200E74652 /* JadeLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07764834299F180200E74652 /* Build configuration list for PBXNativeTarget "JadeLearnTests" */;
+			buildPhases = (
+				F85FE6724E9D78A042357C7F /* [CP] Check Pods Manifest.lock */,
+				07764819299F180200E74652 /* Sources */,
+				0776481A299F180200E74652 /* Frameworks */,
+				0776481B299F180200E74652 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0776481F299F180200E74652 /* PBXTargetDependency */,
+			);
+			name = JadeLearnTests;
+			productName = JadeLearnTests;
+			productReference = 0776481D299F180200E74652 /* JadeLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07764826299F180200E74652 /* JadeLearnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07764837299F180200E74652 /* Build configuration list for PBXNativeTarget "JadeLearnUITests" */;
+			buildPhases = (
+				02BD8E9A57B9014D064B6BD3 /* [CP] Check Pods Manifest.lock */,
+				07764823299F180200E74652 /* Sources */,
+				07764824299F180200E74652 /* Frameworks */,
+				07764825299F180200E74652 /* Resources */,
+				0240C4CF58C1E7B6788C59ED /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07764829299F180200E74652 /* PBXTargetDependency */,
+			);
+			name = JadeLearnUITests;
+			productName = JadeLearnUITests;
+			productReference = 07764827299F180200E74652 /* JadeLearnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077647FA299F180000E74652 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = Jade;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					07764801299F180000E74652 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0776481C299F180200E74652 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07764801299F180000E74652;
+					};
+					07764826299F180200E74652 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07764801299F180000E74652;
+					};
+				};
+			};
+			buildConfigurationList = 077647FD299F180000E74652 /* Build configuration list for PBXProject "JadeLearn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077647F9299F180000E74652;
+			productRefGroup = 07764803299F180000E74652 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07764801299F180000E74652 /* JadeLearn */,
+				0776481C299F180200E74652 /* JadeLearnTests */,
+				07764826299F180200E74652 /* JadeLearnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07764800299F180000E74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07764815299F180200E74652 /* LaunchScreen.storyboard in Resources */,
+				0776488429A4A47700E74652 /* DMSans-Bold.ttf in Resources */,
+				07764812299F180200E74652 /* Assets.xcassets in Resources */,
+				0776488229A4A47700E74652 /* DMSans-Medium.ttf in Resources */,
+				0776488329A4A47700E74652 /* DMSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0776481B299F180200E74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07764825299F180200E74652 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0240C4CF58C1E7B6788C59ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		02BD8E9A57B9014D064B6BD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JadeLearn-JadeLearnUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3D2C9A9FE25145DB5946D41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JadeLearn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8ED90C42EC881A334960056 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JadeLearn/Pods-JadeLearn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JadeLearn/Pods-JadeLearn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JadeLearn/Pods-JadeLearn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85FE6724E9D78A042357C7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JadeLearnTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		077647FE299F180000E74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0776486A299F2D3800E74652 /* JadeLocalizationManager.m in Sources */,
+				07764851299F1B5500E74652 /* JadeLoginViewController.m in Sources */,
+				0776484A299F1AA200E74652 /* JadeTabbarController.m in Sources */,
+				07764807299F180000E74652 /* AppDelegate.m in Sources */,
+				0776485B299F26F100E74652 /* UILabel+JadeLabel.m in Sources */,
+				0776489029A5CE5E00E74652 /* JadeTableViewCell.m in Sources */,
+				07764872299F606900E74652 /* JadeTools.m in Sources */,
+				07764879299F622000E74652 /* UIButton+JadeButton.m in Sources */,
+				07764864299F2B8100E74652 /* UIColor+JadeColor.m in Sources */,
+				0776484E299F1B3A00E74652 /* JadeViewController.m in Sources */,
+				07764855299F1BDD00E74652 /* JadeGlobal.m in Sources */,
+				07764818299F180200E74652 /* main.m in Sources */,
+				0776488D29A5CC1200E74652 /* JadeHomeViewController.m in Sources */,
+				0776487E29A49EF500E74652 /* UIDevice+JadeAddition.m in Sources */,
+				07764847299F1A7100E74652 /* JadeNavigationController.m in Sources */,
+				07764875299F614F00E74652 /* JadeWKWebViewController.m in Sources */,
+				0776489429A5D35000E74652 /* NSTimer+JadeTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07764819299F180200E74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07764822299F180200E74652 /* JadeLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07764823299F180200E74652 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0776482C299F180200E74652 /* JadeLearnUITests.m in Sources */,
+				0776482E299F180200E74652 /* JadeLearnUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0776481F299F180200E74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07764801299F180000E74652 /* JadeLearn */;
+			targetProxy = 0776481E299F180200E74652 /* PBXContainerItemProxy */;
+		};
+		07764829299F180200E74652 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07764801299F180000E74652 /* JadeLearn */;
+			targetProxy = 07764828299F180200E74652 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07764813299F180200E74652 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07764814299F180200E74652 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0776482F299F180200E74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07764830299F180200E74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07764832299F180200E74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C4038C7BFD4255CC94F275D /* Pods-JadeLearn.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2MXLAPJ2B;
+				GCC_PREFIX_HEADER = /Users/jade/JadeLearn/JadeLearn/System/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/jade/JadeLearn/JadeLearn/System/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jade.JadeLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07764833299F180200E74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B758975B29025DEC4E96EAEC /* Pods-JadeLearn.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2MXLAPJ2B;
+				GCC_PREFIX_HEADER = /Users/jade/JadeLearn/JadeLearn/System/PrefixHeader.pch;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/jade/JadeLearn/JadeLearn/System/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jade.JadeLearn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		07764835299F180200E74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E928B4D488898283BB6FECFF /* Pods-JadeLearnTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2MXLAPJ2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jade.JadeLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JadeLearn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JadeLearn";
+			};
+			name = Debug;
+		};
+		07764836299F180200E74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D69F3405BBAA172D5018107 /* Pods-JadeLearnTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2MXLAPJ2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jade.JadeLearnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JadeLearn.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JadeLearn";
+			};
+			name = Release;
+		};
+		07764838299F180200E74652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46F45EFB77E1F75C427B65F9 /* Pods-JadeLearn-JadeLearnUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2MXLAPJ2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jade.JadeLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JadeLearn;
+			};
+			name = Debug;
+		};
+		07764839299F180200E74652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 099FE9C71206B7C8B5E03926 /* Pods-JadeLearn-JadeLearnUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = G2MXLAPJ2B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jade.JadeLearnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JadeLearn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077647FD299F180000E74652 /* Build configuration list for PBXProject "JadeLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0776482F299F180200E74652 /* Debug */,
+				07764830299F180200E74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07764831299F180200E74652 /* Build configuration list for PBXNativeTarget "JadeLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07764832299F180200E74652 /* Debug */,
+				07764833299F180200E74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07764834299F180200E74652 /* Build configuration list for PBXNativeTarget "JadeLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07764835299F180200E74652 /* Debug */,
+				07764836299F180200E74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07764837299F180200E74652 /* Build configuration list for PBXNativeTarget "JadeLearnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07764838299F180200E74652 /* Debug */,
+				07764839299F180200E74652 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077647FA299F180000E74652 /* Project object */;
+}

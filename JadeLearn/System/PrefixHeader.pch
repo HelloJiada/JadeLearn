@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  JadeLearn
+//
+//  Created by 陈佳达 on 2023/2/17.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "JadeGlobal.h"
+#import "JadeTools.h"
+
+#import "JadeNavigationController.h"
+
+#import "UILabel+JadeLabel.h"
+#import "UIColor+JadeColor.h"
+#import "UIButton+JadeButton.h"
+#import "UIDevice+JadeAddition.h"
+#import "NSTimer+JadeTimer.h"
+
+#import "Masonry.h"
+#import "AFNetworking.h"
+
+#import "AppMacro.h"
+#import "ColorMacro.h"
+#import "SizeMacro.h"
+#import "FontMacro.h"
+#import "JadeLocalizationManager.h"
+#endif /* PrefixHeader_pch */
