@@ -10,4 +10,5 @@
 
 #define JadeColor(a) [UIColor colorFromHexString:a]
 
+#define kThemeBackgroundColor JadeColor(@"AEEEEE")
 #endif /* ColorMacro_h */

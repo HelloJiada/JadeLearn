@@ -151,4 +151,29 @@
     
     return NO;
 }
+
++ (NSString *)getCurrentTimeWith:(JadeGetCurrentTimeStyle)styleStr {
+    NSDate *currentDate = [NSDate date];
+    NSDateFormatter *dateFromatter = [[NSDateFormatter alloc] init];
+    
+    switch (styleStr) {
+        case JadeGetCurrentTimeStyleDeflue:
+            [dateFromatter setDateFormat:@"YYYY - MM - dd HH : mm : ss"];
+            break;
+        case JadeGetCurrentTimeStyleYMD:
+            [dateFromatter setDateFormat:@"YYYY - MM - dd"];
+            break;
+        case JadeGetCurrentTimeStyleH:
+            [dateFromatter setDateFormat:@"HH"];
+            break;
+        case JadeGetCurrentTimeStyleHHMMSS:
+            [dateFromatter setDateFormat:@"HH : mm : ss"];
+            break;
+        default:
+            break;
+    }
+    NSString *dateStr = [dateFromatter stringFromDate:currentDate];
+    return dateStr;
+}
+
 @end

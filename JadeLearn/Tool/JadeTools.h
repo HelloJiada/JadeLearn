@@ -10,6 +10,13 @@
 #import <objc/runtime.h>
 NS_ASSUME_NONNULL_BEGIN
 
+typedef NS_ENUM(NSInteger, JadeGetCurrentTimeStyle){//需要了再加吧
+    JadeGetCurrentTimeStyleDeflue = 0,
+    JadeGetCurrentTimeStyleYMD,
+    JadeGetCurrentTimeStyleHHMMSS,
+    JadeGetCurrentTimeStyleH,
+};
+
 @interface JadeTools : NSObject
 
 /// 获取SSID信息
@@ -27,6 +34,12 @@ NS_ASSUME_NONNULL_BEGIN
 ///
 /// - Parameter params:  万能控制器跳转
 + (void)push:(NSDictionary *)params;
+
+
+/// 获取时间
+/// - Parameter styleStr: YYYY - MM - dd HH : mm : ss
++ (NSString *)getCurrentTimeWith:(JadeGetCurrentTimeStyle)styleStr;
+
 @end
 
 NS_ASSUME_NONNULL_END

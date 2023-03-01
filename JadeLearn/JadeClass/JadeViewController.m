@@ -7,8 +7,8 @@
 
 #import "JadeViewController.h"
 #import "JadeTableViewCell.h"
-@interface JadeViewController ()<UITableViewDelegate, UITableViewDataSource>
-@property (nonatomic, strong) UITableView *tableView;
+@interface JadeViewController ()
+
 @property (nonatomic, strong) NSTimer *timer;
 @end
 
@@ -61,7 +61,7 @@
 
 - (UITableView *)tableView {
     if (!_tableView) {
-        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, kSafeDistanceTop, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, kTabBarHeight, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
         _tableView.delegate = self;
         _tableView.dataSource = self;
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
@@ -85,5 +85,11 @@
     self.timer = nil;
 }
 
+- (NSArray *)titleArr {
+    if (!_titleArr) {
+        _titleArr = [[NSArray alloc] init];
+    }
+    return _titleArr;
+}
 
 @end

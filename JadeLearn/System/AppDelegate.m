@@ -8,8 +8,9 @@
 #import "AppDelegate.h"
 #import "JadeLoginViewController.h"
 #import "JadeTabbarController.h"
+#import "JadeThread.h"
 @interface AppDelegate ()
-
+@property (nonatomic, strong) JadeThread *thread;
 @end
 
 @implementation AppDelegate
@@ -23,6 +24,9 @@
 //    [JadeTools getFontNames];
     // 检测网络状态
     [JadeTools openAFNetWorking];
+    
+//    self.thread = [[JadeThread alloc] initWithTarget:self selector:@selector(run) object:nil];
+//    [self.thread start];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     
@@ -40,5 +44,11 @@
     return YES;
 }
 
+- (void)run {
+    NSLog(@"%s %@",__func__,[NSThread currentThread]);
+    [[NSRunLoop currentRunLoop] addPort:[[NSPort alloc] init] forMode:NSDefaultRunLoopMode];
+    [[NSRunLoop currentRunLoop] run];
+    NSLog(@"%s ------end-----",__func__);
+}
 
 @end
