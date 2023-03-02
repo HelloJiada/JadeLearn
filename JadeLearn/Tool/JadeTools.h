@@ -40,6 +40,8 @@ typedef NS_ENUM(NSInteger, JadeGetCurrentTimeStyle){//需要了再加吧
 /// - Parameter styleStr: YYYY - MM - dd HH : mm : ss
 + (NSString *)getCurrentTimeWith:(JadeGetCurrentTimeStyle)styleStr;
 
+// 读取本地Json文件
++ (NSDictionary *)readLocalFileWithName:(NSString *)name;
 @end
 
 NS_ASSUME_NONNULL_END

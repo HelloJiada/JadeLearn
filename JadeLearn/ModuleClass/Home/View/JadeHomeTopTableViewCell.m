@@ -36,6 +36,14 @@
             make.centerY.mas_equalTo(self.contentView.mas_centerY);
     }];
     
+    [self.contentView addSubview:self.bottomLine];
+    [self.bottomLine mas_makeConstraints:^(MASConstraintMaker *make) {
+            make.left.mas_equalTo(self.contentView.mas_left).offset(20);
+            make.height.mas_equalTo(0.5);
+            make.right.mas_equalTo(self.contentView.mas_right).offset(-20);
+        make.bottom.mas_equalTo(self.contentView.mas_bottom);
+    }];
+    
 }
 
 - (UILabel *)titleLabel {

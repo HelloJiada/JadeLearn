@@ -8,9 +8,11 @@
 #import "AppDelegate.h"
 #import "JadeLoginViewController.h"
 #import "JadeTabbarController.h"
+#import "JadeHomeViewController.h"
 #import "JadeThread.h"
 @interface AppDelegate ()
 @property (nonatomic, strong) JadeThread *thread;
+
 @end
 
 @implementation AppDelegate
@@ -32,8 +34,11 @@
     
     // 添加判断 是否有登陆信息
     if ([[JadeGlobal shareInstance] isLogin]) {
-        JadeTabbarController *rootVc = [[JadeTabbarController alloc] init];
-        self.window.rootViewController = rootVc;
+//        JadeTabbarController *rootVc = [[JadeTabbarController alloc] init];
+//        self.window.rootViewController = rootVc;
+        JadeHomeViewController *rootVc = [[JadeHomeViewController alloc]init];
+        JadeNavigationController *rootNav = [[JadeNavigationController alloc] initWithRootViewController:rootVc];
+        [self.window setRootViewController:rootNav];
     }else{
         JadeLoginViewController *rootVc = [[JadeLoginViewController alloc]init];
         JadeNavigationController *rootNav = [[JadeNavigationController alloc] initWithRootViewController:rootVc];

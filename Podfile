@@ -18,4 +18,5 @@ target 'JadeLearn' do
 
 pod 'Masonry'
 pod 'AFNetworking', '~> 4.0.1'
+pod 'Charts', '~> 3.6.0'
 end

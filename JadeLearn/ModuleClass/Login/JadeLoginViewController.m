@@ -87,6 +87,7 @@
 
 - (void)clickLoginBtn {
     JadeHomeViewController *vc = [[JadeHomeViewController alloc] init];
+    [[JadeGlobal shareInstance] setIsLogin:YES];
     [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
 }
 

@@ -1,24 +1,22 @@
 //
-//  JadeHomeViewController.m
+//  JadeChartsListViewController.m
 //  JadeLearn
 //
-//  Created by 陈佳达 on 2023/2/22.
+//  Created by 陈佳达 on 2023/3/2.
 //
 
-#import "JadeHomeViewController.h"
-#import "JadeHomeTopTableViewCell.h"
-#import "JadeGCDViewController.h"
-#import "JadeGCDViewController.h"
 #import "JadeChartsListViewController.h"
-@interface JadeHomeViewController ()
+#import "JadeHomeTopTableViewCell.h"
+#import "JadeBarChartWidthViewController.h"
+@interface JadeChartsListViewController ()
 
 @end
 
-@implementation JadeHomeViewController
+@implementation JadeChartsListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArr = @[@"GCD",@"Charts 之 奇巧淫技"];
+    self.titleArr = @[@"动态实现柱状图的宽度 / 根据时间区间设定是否2屏展示并实现拖拽"];
     [self.tableView registerClass:[JadeHomeTopTableViewCell class] forCellReuseIdentifier:@"JadeHomeTopTableViewCell"];
     
 }
@@ -44,24 +42,15 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     switch (indexPath.row) {
         case 0:{
-            JadeGCDViewController *vc = [[JadeGCDViewController alloc] init];
+            JadeBarChartWidthViewController *vc = [[JadeBarChartWidthViewController alloc] init];
             [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
         }
             break;
-        case 1:{
-            JadeChartsListViewController *vc = [[JadeChartsListViewController alloc] init];
-            [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
-        }
+            
         default:
             break;
     }
 }
-
-
-
-
-
-
 
 
 @end

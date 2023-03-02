@@ -35,6 +35,10 @@
 		0776489A29A5F90F00E74652 /* JadeHomeTopTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0776489929A5F90F00E74652 /* JadeHomeTopTableViewCell.m */; };
 		079F2DBE29AD9EE300EAB3BC /* JadeThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DBD29AD9EE300EAB3BC /* JadeThread.m */; };
 		079F2DCB29AF2BEB00EAB3BC /* JadeGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DCA29AF2BEB00EAB3BC /* JadeGCDViewController.m */; };
+		079F2DCF29B07BE300EAB3BC /* JadeChartsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DCE29B07BE300EAB3BC /* JadeChartsListViewController.m */; };
+		079F2DD229B07DB500EAB3BC /* JadeBarChartWidthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DD129B07DB500EAB3BC /* JadeBarChartWidthViewController.m */; };
+		079F2DDE29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DDD29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m */; };
+		079F2DE429B08E9600EAB3BC /* BarChartWidth.json in Resources */ = {isa = PBXBuildFile; fileRef = 079F2DE329B08E9600EAB3BC /* BarChartWidth.json */; };
 		08765E72F82A33E4B9AD4FC7 /* Pods_JadeLearn_JadeLearnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */; };
 		65F1A22947B7BB2BBE67ADE1 /* Pods_JadeLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6670CC290EBF3D980904C7DB /* Pods_JadeLearn.framework */; };
 		E8FCEDAF08738BAA7408BECA /* Pods_JadeLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870BB8F265294108B084FC80 /* Pods_JadeLearnTests.framework */; };
@@ -114,6 +118,13 @@
 		079F2DBD29AD9EE300EAB3BC /* JadeThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeThread.m; sourceTree = "<group>"; };
 		079F2DC929AF2BEB00EAB3BC /* JadeGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeGCDViewController.h; sourceTree = "<group>"; };
 		079F2DCA29AF2BEB00EAB3BC /* JadeGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeGCDViewController.m; sourceTree = "<group>"; };
+		079F2DCD29B07BE300EAB3BC /* JadeChartsListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeChartsListViewController.h; sourceTree = "<group>"; };
+		079F2DCE29B07BE300EAB3BC /* JadeChartsListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeChartsListViewController.m; sourceTree = "<group>"; };
+		079F2DD029B07DB500EAB3BC /* JadeBarChartWidthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeBarChartWidthViewController.h; sourceTree = "<group>"; };
+		079F2DD129B07DB500EAB3BC /* JadeBarChartWidthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeBarChartWidthViewController.m; sourceTree = "<group>"; };
+		079F2DDC29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeTimeAxisValueFormatter.h; sourceTree = "<group>"; };
+		079F2DDD29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeTimeAxisValueFormatter.m; sourceTree = "<group>"; };
+		079F2DE329B08E9600EAB3BC /* BarChartWidth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BarChartWidth.json; sourceTree = "<group>"; };
 		099FE9C71206B7C8B5E03926 /* Pods-JadeLearn-JadeLearnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn-JadeLearnUITests.release.xcconfig"; path = "Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeLearn_JadeLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F45EFB77E1F75C427B65F9 /* Pods-JadeLearn-JadeLearnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn-JadeLearnUITests.debug.xcconfig"; path = "Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -369,6 +380,7 @@
 		0776489529A5F8D300E74652 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				079F2DCC29B07B9300EAB3BC /* Charts */,
 				079F2DBF29AF2AAA00EAB3BC /* GCD */,
 				0776488B29A5CC1200E74652 /* JadeHomeViewController.h */,
 				0776488C29A5CC1200E74652 /* JadeHomeViewController.m */,
@@ -399,6 +411,20 @@
 				079F2DCA29AF2BEB00EAB3BC /* JadeGCDViewController.m */,
 			);
 			path = GCD;
+			sourceTree = "<group>";
+		};
+		079F2DCC29B07B9300EAB3BC /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				079F2DCD29B07BE300EAB3BC /* JadeChartsListViewController.h */,
+				079F2DCE29B07BE300EAB3BC /* JadeChartsListViewController.m */,
+				079F2DD029B07DB500EAB3BC /* JadeBarChartWidthViewController.h */,
+				079F2DD129B07DB500EAB3BC /* JadeBarChartWidthViewController.m */,
+				079F2DDC29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.h */,
+				079F2DDD29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m */,
+				079F2DE329B08E9600EAB3BC /* BarChartWidth.json */,
+			);
+			path = Charts;
 			sourceTree = "<group>";
 		};
 		C82186393445321B3D4CA81F /* Pods */ = {
@@ -536,6 +562,7 @@
 				07764815299F180200E74652 /* LaunchScreen.storyboard in Resources */,
 				0776488429A4A47700E74652 /* DMSans-Bold.ttf in Resources */,
 				07764812299F180200E74652 /* Assets.xcassets in Resources */,
+				079F2DE429B08E9600EAB3BC /* BarChartWidth.json in Resources */,
 				0776488229A4A47700E74652 /* DMSans-Medium.ttf in Resources */,
 				0776488329A4A47700E74652 /* DMSans-Regular.ttf in Resources */,
 			);
@@ -669,6 +696,7 @@
 				07764851299F1B5500E74652 /* JadeLoginViewController.m in Sources */,
 				0776484A299F1AA200E74652 /* JadeTabbarController.m in Sources */,
 				07764807299F180000E74652 /* AppDelegate.m in Sources */,
+				079F2DDE29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m in Sources */,
 				0776485B299F26F100E74652 /* UILabel+JadeLabel.m in Sources */,
 				0776489029A5CE5E00E74652 /* JadeTableViewCell.m in Sources */,
 				079F2DBE29AD9EE300EAB3BC /* JadeThread.m in Sources */,
@@ -680,8 +708,10 @@
 				07764855299F1BDD00E74652 /* JadeGlobal.m in Sources */,
 				07764818299F180200E74652 /* main.m in Sources */,
 				0776488D29A5CC1200E74652 /* JadeHomeViewController.m in Sources */,
+				079F2DCF29B07BE300EAB3BC /* JadeChartsListViewController.m in Sources */,
 				0776487E29A49EF500E74652 /* UIDevice+JadeAddition.m in Sources */,
 				07764847299F1A7100E74652 /* JadeNavigationController.m in Sources */,
+				079F2DD229B07DB500EAB3BC /* JadeBarChartWidthViewController.m in Sources */,
 				07764875299F614F00E74652 /* JadeWKWebViewController.m in Sources */,
 				0776489A29A5F90F00E74652 /* JadeHomeTopTableViewCell.m in Sources */,
 				0776489429A5D35000E74652 /* NSTimer+JadeTimer.m in Sources */,
