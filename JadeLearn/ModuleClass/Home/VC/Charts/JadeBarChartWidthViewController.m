@@ -24,10 +24,11 @@
         make.left.right.mas_equalTo(self.view);
     }];
     
-    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, 1.5 * NSEC_PER_SEC);
+    dispatch_time_t time = dispatch_time(DISPATCH_TIME_NOW, 0.1 * NSEC_PER_SEC);
     dispatch_after(time, dispatch_get_main_queue(), ^{
         [self requestData];
     });
+    
 }
 
 - (NSDictionary *)dataDict {
@@ -90,13 +91,9 @@
         //圆柱边宽。默认0.0
         set.barBorderWidth = 0.1;
         //圆柱边色。默认black
-        if ([obj[@"type"] integerValue]==0 || [obj[@"type"] integerValue]==5) {
-            [set setColor:RGBA(120, 37, 254, 1)];
-            set.barBorderColor = RGBA(120, 37, 254, 1);
-        }else {
-            set.barBorderColor = RGBA(227, 227, 227, 1);
-            [set setColor:RGBA(227, 227, 227, 1)];
-        }
+        set.barBorderColor = kRGBRandom;
+        [set setColor:kRGBRandom];
+        
         //不在面板上直接显示数值
         set.drawValuesEnabled = NO;
         set.highlightEnabled = NO;
@@ -167,6 +164,7 @@
         leftAxis.drawLabelsEnabled = NO;
         
         _chartView.legend.enabled = NO;//不显示图例说明
+        [_chartView animateWithYAxisDuration:1.5];
     }
     return _chartView;
 }

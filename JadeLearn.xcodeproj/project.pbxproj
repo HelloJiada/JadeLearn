@@ -39,6 +39,8 @@
 		079F2DD229B07DB500EAB3BC /* JadeBarChartWidthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DD129B07DB500EAB3BC /* JadeBarChartWidthViewController.m */; };
 		079F2DDE29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DDD29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m */; };
 		079F2DE429B08E9600EAB3BC /* BarChartWidth.json in Resources */ = {isa = PBXBuildFile; fileRef = 079F2DE329B08E9600EAB3BC /* BarChartWidth.json */; };
+		079F2DE729B1A7D700EAB3BC /* JadeGradientBarChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F2DE629B1A7D700EAB3BC /* JadeGradientBarChartViewController.m */; };
+		079F2DEA29B1AA6000EAB3BC /* GradientBarChart.json in Resources */ = {isa = PBXBuildFile; fileRef = 079F2DE929B1AA5F00EAB3BC /* GradientBarChart.json */; };
 		08765E72F82A33E4B9AD4FC7 /* Pods_JadeLearn_JadeLearnUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */; };
 		65F1A22947B7BB2BBE67ADE1 /* Pods_JadeLearn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6670CC290EBF3D980904C7DB /* Pods_JadeLearn.framework */; };
 		E8FCEDAF08738BAA7408BECA /* Pods_JadeLearnTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 870BB8F265294108B084FC80 /* Pods_JadeLearnTests.framework */; };
@@ -125,6 +127,9 @@
 		079F2DDC29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeTimeAxisValueFormatter.h; sourceTree = "<group>"; };
 		079F2DDD29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeTimeAxisValueFormatter.m; sourceTree = "<group>"; };
 		079F2DE329B08E9600EAB3BC /* BarChartWidth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = BarChartWidth.json; sourceTree = "<group>"; };
+		079F2DE529B1A7D700EAB3BC /* JadeGradientBarChartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JadeGradientBarChartViewController.h; sourceTree = "<group>"; };
+		079F2DE629B1A7D700EAB3BC /* JadeGradientBarChartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JadeGradientBarChartViewController.m; sourceTree = "<group>"; };
+		079F2DE929B1AA5F00EAB3BC /* GradientBarChart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = GradientBarChart.json; sourceTree = "<group>"; };
 		099FE9C71206B7C8B5E03926 /* Pods-JadeLearn-JadeLearnUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn-JadeLearnUITests.release.xcconfig"; path = "Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3701371189564452F7E45270 /* Pods_JadeLearn_JadeLearnUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JadeLearn_JadeLearnUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46F45EFB77E1F75C427B65F9 /* Pods-JadeLearn-JadeLearnUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JadeLearn-JadeLearnUITests.debug.xcconfig"; path = "Target Support Files/Pods-JadeLearn-JadeLearnUITests/Pods-JadeLearn-JadeLearnUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -423,6 +428,9 @@
 				079F2DDC29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.h */,
 				079F2DDD29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m */,
 				079F2DE329B08E9600EAB3BC /* BarChartWidth.json */,
+				079F2DE529B1A7D700EAB3BC /* JadeGradientBarChartViewController.h */,
+				079F2DE629B1A7D700EAB3BC /* JadeGradientBarChartViewController.m */,
+				079F2DE929B1AA5F00EAB3BC /* GradientBarChart.json */,
 			);
 			path = Charts;
 			sourceTree = "<group>";
@@ -560,6 +568,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07764815299F180200E74652 /* LaunchScreen.storyboard in Resources */,
+				079F2DEA29B1AA6000EAB3BC /* GradientBarChart.json in Resources */,
 				0776488429A4A47700E74652 /* DMSans-Bold.ttf in Resources */,
 				07764812299F180200E74652 /* Assets.xcassets in Resources */,
 				079F2DE429B08E9600EAB3BC /* BarChartWidth.json in Resources */,
@@ -699,6 +708,7 @@
 				079F2DDE29B0860B00EAB3BC /* JadeTimeAxisValueFormatter.m in Sources */,
 				0776485B299F26F100E74652 /* UILabel+JadeLabel.m in Sources */,
 				0776489029A5CE5E00E74652 /* JadeTableViewCell.m in Sources */,
+				079F2DE729B1A7D700EAB3BC /* JadeGradientBarChartViewController.m in Sources */,
 				079F2DBE29AD9EE300EAB3BC /* JadeThread.m in Sources */,
 				07764872299F606900E74652 /* JadeTools.m in Sources */,
 				07764879299F622000E74652 /* UIButton+JadeButton.m in Sources */,

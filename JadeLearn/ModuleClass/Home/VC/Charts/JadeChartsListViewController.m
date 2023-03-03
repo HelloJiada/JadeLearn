@@ -8,6 +8,7 @@
 #import "JadeChartsListViewController.h"
 #import "JadeHomeTopTableViewCell.h"
 #import "JadeBarChartWidthViewController.h"
+#import "JadeGradientBarChartViewController.h"
 @interface JadeChartsListViewController ()
 
 @end
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titleArr = @[@"动态实现柱状图的宽度 / 根据时间区间设定是否2屏展示并实现拖拽"];
+    self.titleArr = @[@"动态实现柱状图📊的宽度 / 根据时间区间设定是否2屏展示并实现拖拽",
+                      @"渐变色 柱状图📊"];
     [self.tableView registerClass:[JadeHomeTopTableViewCell class] forCellReuseIdentifier:@"JadeHomeTopTableViewCell"];
     
 }
@@ -46,7 +48,11 @@
             [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
         }
             break;
-            
+        case 1:{
+            JadeGradientBarChartViewController *vc = [[JadeGradientBarChartViewController alloc] init];
+            [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }

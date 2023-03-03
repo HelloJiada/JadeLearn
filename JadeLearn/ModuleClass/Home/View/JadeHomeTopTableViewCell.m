@@ -16,7 +16,7 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
-
+    
     // Configure the view for the selected state
 }
 
@@ -32,15 +32,16 @@
     [self.contentView addSubview:self.titleLabel];
     
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(self.contentView.mas_left).offset(20);
-            make.centerY.mas_equalTo(self.contentView.mas_centerY);
+        make.left.mas_equalTo(self.contentView.mas_left).offset(20);
+        make.right.mas_equalTo(self.contentView.mas_right).offset(-20);
+        make.centerY.mas_equalTo(self.contentView.mas_centerY);
     }];
     
     [self.contentView addSubview:self.bottomLine];
     [self.bottomLine mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.left.mas_equalTo(self.contentView.mas_left).offset(20);
-            make.height.mas_equalTo(0.5);
-            make.right.mas_equalTo(self.contentView.mas_right).offset(-20);
+        make.left.mas_equalTo(self.contentView.mas_left).offset(20);
+        make.height.mas_equalTo(0.5);
+        make.right.mas_equalTo(self.contentView.mas_right).offset(-20);
         make.bottom.mas_equalTo(self.contentView.mas_bottom);
     }];
     
@@ -48,7 +49,7 @@
 
 - (UILabel *)titleLabel {
     if (!_titleLabel) {
-        _titleLabel = [UILabel labelWithTitle:@"" color:UIColor.blackColor font:PingFangRegularFont(14) TextAlignment:NSTextAlignmentLeft NumberOfLines:1];
+        _titleLabel = [UILabel labelWithTitle:@"" color:UIColor.blackColor font:PingFangRegularFont(14) TextAlignment:NSTextAlignmentLeft NumberOfLines:0];
     }
     return _titleLabel;
 }
