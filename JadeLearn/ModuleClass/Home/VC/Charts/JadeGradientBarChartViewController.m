@@ -19,7 +19,7 @@
     [self.view addSubview:self.lineChartView];
     [self.lineChartView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.mas_equalTo(self.view.mas_centerX);
-        make.centerY.mas_equalTo(self.view.mas_centerY);
+        make.top.mas_equalTo(self.view.mas_top).offset(kTabBarHeight + 100);
         make.height.mas_equalTo(200);
         make.left.right.mas_equalTo(self.view);
     }];
@@ -55,7 +55,7 @@
     
     xAxis.axisMinimum = 0;
     xAxis.axisMaximum = 14;//修改
-    xAxis.granularity = 1;  
+    xAxis.granularity = 1;
     xAxis.valueFormatter =  [ChartIndexAxisValueFormatter withValues:array];
     xAxis.labelCount = 7;//修改
     xAxis.forceLabelsEnabled = NO;

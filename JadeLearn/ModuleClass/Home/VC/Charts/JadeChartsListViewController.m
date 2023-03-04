@@ -9,6 +9,7 @@
 #import "JadeHomeTopTableViewCell.h"
 #import "JadeBarChartWidthViewController.h"
 #import "JadeGradientBarChartViewController.h"
+#import "JadeCentrakIndexLineViewController.h"
 @interface JadeChartsListViewController ()
 
 @end
@@ -18,7 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.titleArr = @[@"动态实现柱状图📊的宽度 / 根据时间区间设定是否2屏展示并实现拖拽",
-                      @"渐变色 柱状图📊"];
+                      @"渐变色柱状图📊",
+                      @"图表绘制一块平行X轴线性指标 / 根据动态最大值-最小值绘制曲线"];
     [self.tableView registerClass:[JadeHomeTopTableViewCell class] forCellReuseIdentifier:@"JadeHomeTopTableViewCell"];
     
 }
@@ -53,6 +55,12 @@
             [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
         }
             break;
+        case 2:{
+            JadeCentrakIndexLineViewController *vc = [[JadeCentrakIndexLineViewController alloc] init];
+            [[JadeTools getCurrentVC].navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
         default:
             break;
     }
